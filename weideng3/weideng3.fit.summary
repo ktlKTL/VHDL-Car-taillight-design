@@ -1,0 +1,16 @@
+Fitter Status : Successful - Fri Oct 30 21:46:11 2020
+Quartus II Version : 9.0 Build 132 02/25/2009 SJ Full Version
+Revision Name : weideng3
+Top-level Entity Name : carlight
+Family : Cyclone III
+Device : EP3C16F484C6
+Timing Models : Final
+Total logic elements : 20 / 15,408 ( < 1 % )
+    Total combinational functions : 20 / 15,408 ( < 1 % )
+    Dedicated logic registers : 8 / 15,408 ( < 1 % )
+Total registers : 8
+Total pins : 10 / 347 ( 3 % )
+Total virtual pins : 0
+Total memory bits : 0 / 516,096 ( 0 % )
+Embedded Multiplier 9-bit elements : 0 / 112 ( 0 % )
+Total PLLs : 0 / 4 ( 0 % )

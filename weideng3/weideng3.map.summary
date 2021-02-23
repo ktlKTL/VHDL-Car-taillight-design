@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Fri Oct 30 21:46:08 2020
+Quartus II Version : 9.0 Build 132 02/25/2009 SJ Full Version
+Revision Name : weideng3
+Top-level Entity Name : carlight
+Family : Cyclone III
+Total logic elements : 20
+    Total combinational functions : 20
+    Dedicated logic registers : 8
+Total registers : 8
+Total pins : 10
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

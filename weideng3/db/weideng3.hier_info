@@ -1,0 +1,40 @@
+|carlight
+A2 <= R[2].DB_MAX_OUTPUT_PORT_TYPE
+clk => car:inst.clk
+tright => car:inst.tright
+tleft => car:inst.tleft
+mark => car:inst.mark
+A1 <= R[1].DB_MAX_OUTPUT_PORT_TYPE
+A0 <= R[0].DB_MAX_OUTPUT_PORT_TYPE
+B2 <= L[2].DB_MAX_OUTPUT_PORT_TYPE
+B1 <= L[1].DB_MAX_OUTPUT_PORT_TYPE
+B0 <= L[0].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|carlight|car:inst
+clk => rlight[1].CLK
+clk => rlight[0].CLK
+clk => leftlight[2]~reg0.CLK
+clk => leftlight[1]~reg0.CLK
+clk => leftlight[0]~reg0.CLK
+clk => rightlight[2]~reg0.CLK
+clk => rightlight[1]~reg0.CLK
+clk => rightlight[0]~reg0.CLK
+tright => proout~2.IN1
+tright => proout~0.IN1
+tright => proout~3.IN1
+tright => proout~1.IN1
+tleft => proout~2.IN0
+tleft => proout~1.IN0
+tleft => proout~3.IN0
+tleft => proout~0.IN0
+mark => rightlight[2]~1.IN1
+mark => rightlight[2]~2.IN1
+rightlight[0] <= rightlight[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+rightlight[1] <= rightlight[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+rightlight[2] <= rightlight[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+leftlight[0] <= leftlight[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+leftlight[1] <= leftlight[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+leftlight[2] <= leftlight[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
